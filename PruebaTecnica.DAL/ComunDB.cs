@@ -10,6 +10,7 @@ namespace PruebaTecnica.DAL
 {
     public class ComunDB
     {
+        //DateBase//
         const string StrConexion = @"Data Source=.;Initial Catalog=CRUDDB;Integrated Security=True";
         private static SqlConnection ObtenerConexion()
         {
